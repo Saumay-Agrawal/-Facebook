@@ -34,21 +34,26 @@
                 	
         	<form id="personal_details" action="" method="post">
             <p>
-                    Name:
+                    Name:  
                     <input type="text" id="username" name="username" placeholder="First Name" value="" class="radius mini" />
                 </p>
-            <h5>Gender:</h5>
-            <p>
-                    <input type="radio" id="button" value="" class="radiusmini" /><span class="convText">Male</span>
-  					<label><input type="radio" />Female</label>
-  					<label><input type="radio" />Other</label>
-                </p>
-                <p>
-                    Birthday:<input type="date" name="bday" class="radiusmini">
-                </p>
-                	<input type="submit" value="Submit" class="radiusmini">
-  						<input type="reset" value="" class="radiusmini">
-                </p>
+           		 <k align="center">Gender:</k>    
+           		 	<fieldset>
+  					<div class="some-class">
+    					<input type="radio" class="radio" name="Gender" value="x" id="x" />
+    						<label for="x"><k3>Male</k3></label>
+    							<input type="radio" class="radio" name="Gender" value="y" id="y" />
+    								<label for="y">Female</label>
+    									<input type="radio" class="radio" name="Gender" value="z" id="z" />
+    										<label for="z">Other</label>
+  					</div>
+					</fieldset>
+                
+                    <k align="center">Birthday:</k><br> <k1><input style="height: 15px; width:130px;" type="date" name="bday" class="radius mini"></k1>
+                    <br>
+                    <br>
+                	<k2><button style="height:30px; width:80px;" type="button" value="Submit" class="radius mini">Submit</button></k2>
+  						<button style="height: 30px; width:80px;" type="button" value="Reset" class="radius mini">Reset</button>
             </form>
         </div><!--loginform-->
     </div><!--loginboxinner-->
