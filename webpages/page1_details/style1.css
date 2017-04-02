@@ -23,14 +23,14 @@ h2 { font-size: 30px; line-height:38px; font-weight:normal; }
 .personal_details_box h1 { font-size: 30px; letter-spacing: 1px; color: #555; font-weight: normal; padding-top: 0px; }
 .personal_details_box p { margin: 7px 0 5px 0; }
 .personal_details_box h5 { margin: 4px 0 5px 0; }
-.personal_details_box label { display: block; color: #666; letter-spacing: 1px; font-size: 18px; }
+.personal_details_box label { display: block; color: #000; letter-spacing: 1px; font-size: 15px; }
 .personal_details_box input.mini { width:125px; }
 .personal_details_box input { 
-	padding: 12px 10px; color: #ccc; 
+	padding: 8px 8px; color: #ccc; 
 	font-family: Arial, Helvetica, sans-serif; margin-top: 8px; font-size: 15px; border: 1px solid #ccc; width: 420px;  outline: none; 
 }
 .personal_details_box button { 
-	background: #5870A8; background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); padding: 10px 20px; font-size: 18px; border: 1px solid #1D3871; letter-spacing: 1px; color: #fff; width: 440px; line-height:30px; font-family:	'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: #5870A8; background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); padding: 10px 20px; font-size: 13px; border: 1px solid #1D3871; letter-spacing: 1px; color: #fff; width: 440px; line-height:30px; font-family:	'Helvetica Neue', Helvetica, Arial, sans-serif;
 	-moz-box-shadow: 1px 1px 3px #1D3871; -webkit-box-shadow: 1px 1px 3px #1D3871; box-shadow: 1px 1px 3px #1D3871; cursor: pointer;
 }
 
@@ -48,7 +48,8 @@ h2 { font-size: 30px; line-height:38px; font-weight:normal; }
 	.personal_details_box { width: auto; margin: 10px; }
 	.personal_details_box input { width: 10%; }
 	.personal_details_box button { width: 60%; }
-}	
+}
+
 .rButton {
     width: 13px;
     height: 12px;
@@ -58,6 +59,15 @@ h2 { font-size: 30px; line-height:38px; font-weight:normal; }
     font-family:'Segoe UI';
     font-size:20px;
     vertical-align: middle;
+}
+k{
+	padding-right: 140px;
+}
+k1{
+	padding-left: 60px; 
+}
+k2{
+	padding-left: 60px;
 }
 
 #facebook-Bar {
@@ -133,11 +143,23 @@ h2 { font-size: 30px; line-height:38px; font-weight:normal; }
 	text-align: left;
 	vertical-align: middle;
 }
-label{
- font-size:10px;
- vertical-align: middle;
+
+fieldset {
+  overflow: hidden
 }
-input[type="radio"]{
- float:left;
+
+.some-class {
+  float: left;
+  clear: none;
 }
-.fbbutton { border:1px solid #1D3871; width:94px; background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); font-size:14px; line-height:25px; font-weight:normal; color:#fff; }
+
+label {
+  float: center;
+  clear: none;
+}
+
+input[type=radio],
+input.radio {
+  float: center;
+  clear: none;
+}
