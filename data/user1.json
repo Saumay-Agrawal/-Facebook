@@ -1,0 +1,100 @@
+{
+	"personal_details" : {
+		"name" : "Tanay Srivastava",
+		"gender" : "Male",
+		"dob": "21/12/1998",
+		"age" : 18
+		//profile picture
+	},
+
+
+	"contact_details" : {
+		"mailid" : ["tanaysrivastava.93@gmail.com","tanaysrivastava93@yahoo.in"],
+		"phoneno" : ["9935479343","7550250047"],
+		
+		"address" : {
+			"flatno" : "2/279",
+			"city" : "Lucknow",
+			"state" : "U.P.",
+			"country" : "India",
+			"zip" : 226010
+		},
+		
+		"website" : [],
+		"sociallinks" : [],
+	},
+
+
+	"extradetails" : {
+		
+		"education" : {
+			"college" : "VIT Chennai Campus",
+			"highschool" : "Seth M.R. Jaipuria School"
+		},
+
+		"languages" : ["Hindi","English","French"],
+		"religion" : "Hindu"
+	},
+
+
+	"interests" : {
+
+		"movies" : [
+		{
+			"name" : "Inception",
+			"genre" : "Sci-Fi",
+			"language" : "English",
+			"rating" : 8.8,
+			"personalreview" : ,
+			"imdblink" : "http://www.imdb.com/title/tt1375666/"
+		},
+
+		{
+			"name" : "The Prestige",
+			"genre" : "Mystery",
+			"language" : "English",
+			"rating" : 8.5,
+			"personalreview" : ,
+			"imdblink" : "http://www.imdb.com/title/tt0482571/"
+		}
+
+		],
+
+		"music" : [
+		{
+			"song" : "Shape of You",
+			"album" : "Divide",
+			"artist" : "ed sheeran",
+			"genre" : "EDM",
+			"gaanalink" : "http://gaana.com/song/shape-of-you-7"
+		},
+
+		{
+			"song" : "Faded",
+			"album" : "Faded",
+			"artist" : "Alan Walker",
+			"genre" : "EDM",
+			"gaanalink" : "gaana.com/album/faded-english-2015-1"
+		},
+
+		{
+			"song" : "Alone",
+			"album" : "Alone",
+			"artist" : "Alan Walker",
+			"genre" : "EDM",
+			"gaanalink" : "http://gaana.com/album/alone-english-2016-4"
+		}
+
+		],
+
+		"food" : [
+		{
+			"outletname" : "Nainital Momos",
+			"cuisine" : "Chinese",
+			"foodtype" : ["Desserts", "Starters", "Snacks"],
+			"zomatolink" : "https://www.zomato.com/lucknow/nainital-momos-gomti-nagar"
+		}
+
+		]
+	}
+}
